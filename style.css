@@ -1,0 +1,128 @@
+body{
+  background: #1f3e5a;
+  background: linear-gradient(180deg, #1f3e5a 0%, rgb(160, 100, 122) 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+main{
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h1 {
+  height: 53px;
+  color: #fff;
+  background: rgba(79, 126, 170, 0.64) ;
+  padding: 8px 14px 0px 15px;
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  top: 430px;
+}
+a{
+
+  background:  #1f3e5a ;
+  color: #ffffff;
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px; 
+}
+img {
+  margin-top: 20px;
+  border-radius: 10px;	
+}
+div{
+  
+  border: 6px solid;
+  border-top-color: rgba(127, 200, 255, 0.61);
+  border-right-color: rgba(127, 200, 255, 0.61);
+  border-bottom-color:rgba(127, 200, 255, 0.61);
+  border-left-color: rgba(127, 200, 255, 0.61);
+  border-radius: 7px;
+  padding: 10px;
+  margin: 40px;
+}
+header{
+  background-image: url("img/227739_1440_900.jpg");
+  background-repeat: no-repeat;
+  height: 540px;
+}
+section {
+  padding: 0 40px;
+  padding-top: 20px;
+}
+article {
+  margin-bottom: 20px;
+}
+aside + article{
+  margin-bottom: 100px;
+}
+article.destacado{
+  background-color: rgb(255, 255, 255); /*color de fondo*/
+  padding: 40px 35px;  
+  border: 0px solid rgba(255, 255, 255, 0);
+  padding-bottom: 50px; 
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+}
+
+article.destacado a {
+  color: rgba(127, 200, 255, 0.61);
+}
+article.destacado img {
+  float: right;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+article.destacado {
+  overflow: auto;
+}
+article.secundario {
+  overflow: auto;
+}
+article.secundario {
+  background-color: #ffffff; /*color de fondo*/
+  padding: 40px 20px;  
+  border: 1px solid #d8ff00;
+  padding-bottom: 50px; 
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+}
+article.secundario img {
+  float: right;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+article.videos{
+  padding-bottom: 50px; 
+  border-radius: 15px;
+}
+table {  
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 1px;
+  border-color: #03719d;
+  border-style: solid;
+  color: #000000;
+  border-collapse: collapse; 
+
+}
+table thead th{
+  background-color: #41828f;
+  color: #fff;
+}
+table td,
+table th{  
+  padding: 10px 15px;
+  border: 4px solid #bbbbbb;
+}
+footer{
+  background-color: #2f2f2f;
+  color: #fff;
+  height: 90px; 
+}
+
+footer p{
+  padding-top: 34px;
+  margin-left: 40px;
+}
+
