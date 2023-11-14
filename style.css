@@ -52,6 +52,7 @@ section {
 }
 article {
   margin-bottom: 20px;
+  display: flex;
 }
 aside + article{
   margin-bottom: 100px;
@@ -75,6 +76,7 @@ article.destacado img {
 }
 article.destacado {
   overflow: auto;
+  padding: 20px;
 }
 article.secundario {
   overflow: auto;
@@ -93,6 +95,7 @@ article.secundario img {
   margin-top: 0px;
 }
 article.videos{
+  justify-content: center;
   padding-bottom: 50px; 
   border-radius: 15px;
 }
@@ -110,8 +113,7 @@ table thead th{
   background-color: #41828f;
   color: #fff;
 }
-table td,
-table th{  
+table td, table th{  
   padding: 10px 15px;
   border: 4px solid #bbbbbb;
 }
